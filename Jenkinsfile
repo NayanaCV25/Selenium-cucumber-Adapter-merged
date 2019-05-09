@@ -18,13 +18,13 @@ pipeline {
           
         }
      
-      steps{
+  /*    steps{
        
         sh 'mvn --version'
 
         sh 'mvn test -D testng.xml'
         
-      }
+      } */
 
     }
 
