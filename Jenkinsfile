@@ -9,7 +9,15 @@ pipeline {
   stages {
 
     stage('Test') {
+        steps {
+            git branch: 'master',
+                url: 'https://github.com/DipanGarg/ConfigProvider.git'
 
+            sh "ls -lat"
+            sh 'mvn clean install' 
+          
+        }
+     
       steps{
        
         sh 'mvn --version'
