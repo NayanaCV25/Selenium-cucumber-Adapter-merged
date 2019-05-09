@@ -11,7 +11,7 @@
 		<classes>
 			<class name="org.cts.oneframework.cucumber.testrunners.TestRunner2" />
 		</classes>
-	</test>-->
+	</test> -->
 	<test name="Test3">
 		<classes>
 			<class name="org.cts.oneframework.cucumber.testrunners.APITestRunner" />
