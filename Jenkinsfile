@@ -14,7 +14,7 @@ pipeline {
        
         sh 'mvn --version'
 
-        sh 'mvn clean install'
+        sh 'mvn test -D testng.xml'
         
       }
 
